@@ -27,7 +27,7 @@ axios.get("https://lambda-times-backend.herokuapp.com/articles").then(data => {
   jqueryData = data.data.articles.jquery;
   nodeData = data.data.articles.node;
   technologyData = data.data.articles.technology;
-  console.log(data);
+  //   console.log(data);
   //   console.log(bootstrapData);
 
   // CREATES ARTICLES FOR THE BOOTSTRAP TOPIC
